@@ -34,14 +34,16 @@ def publicar(video, legenda, cfg):
     c = ok(requests.post(f"{G}/{uid}/media", data={"media_type": "REELS", "upload_type": "resumable", "caption": legenda[:2200],
                                                     "share_to_feed": "true", "access_token": tok}))
     cid = c["id"]
-    with open(video, "rb") as f:
-        ok(requests.post(c.get("uri") or f"https://rupload.facebook.com/ig-api-upload/v27.0/{cid}", data=f,
-                         headers={"Authorization": f"OAuth {tok}", "offset": "0", "file_size": str(os.path.getsize(video))}))
+    with open(video, "rb") as f:  # o rupload às vezes responde 400 mesmo aceitando: quem decide é o status do container
+        requests.post(c.get("uri") or f"https://rupload.facebook.com/ig-api-upload/v27.0/{cid}", data=f,
+                      headers={"Authorization": f"OAuth {tok}", "offset": "0", "file_size": str(os.path.getsize(video))})
     for _ in range(60):
-        st = ok(requests.get(f"{G}/{cid}", params={"fields": "status_code", "access_token": tok}))
+        st = ok(requests.get(f"{G}/{cid}", params={"fields": "status_code,status", "access_token": tok}))
         if st.get("status_code") == "FINISHED": break
         if st.get("status_code") == "ERROR": raise RuntimeError(f"Instagram recusou o vídeo: {st}")
         time.sleep(10)
+    else:
+        raise RuntimeError("Instagram não terminou de processar o vídeo em 10 min")
     return ok(requests.post(f"{G}/{uid}/media_publish", data={"creation_id": cid, "access_token": tok}))["id"]
 
 
