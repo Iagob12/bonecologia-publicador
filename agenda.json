@@ -4,7 +4,9 @@
   "quando": "2026-11-19T15:00:00+00:00",
   "video": "v/2026-11-19_12_cartao-de-credito.mp4",
   "legenda": "Quem paga no cartão aceita pagar até 2x mais pela mesma coisa 💳\nQual compra no cartão você mais se arrependeu?\n\nManda pra quem vive estourando o limite 😅\n\n#financaspessoais #cartaodecredito #dinheiro #educacaofinanceira #psicologia",
-  "status": "pendente"
+  "status": "pendente",
+  "erro": "Graph API 400: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}",
+  "tentativas": 1
  },
  {
   "id": "2026-11-19_18_ninguem-reparou",
