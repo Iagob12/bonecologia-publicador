@@ -4,7 +4,7 @@
   "quando": "2026-11-19T15:00:00+00:00",
   "video": "v/2026-11-19_12_cartao-de-credito.mp4",
   "legenda": "Quem paga no cartão aceita pagar até 2x mais pela mesma coisa 💳\nQual compra no cartão você mais se arrependeu?\n\nManda pra quem vive estourando o limite 😅\n\n#financaspessoais #cartaodecredito #dinheiro #educacaofinanceira #psicologia",
-  "status": "pendente",
+  "status": "atrasado",
   "erro": "Graph API 400: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}",
   "tentativas": 2
  },
@@ -13,14 +13,18 @@
   "quando": "2026-11-19T21:00:00+00:00",
   "video": "v/2026-11-19_18_ninguem-reparou.mp4",
   "legenda": "Aquela vergonha que você acha que todo mundo viu? Metade nem reparou 😮‍💨\nQual foi a sua maior vergonha em público?\n\nManda pra quem morre de vergonha de tudo 😅\n\n#psicologia #ansiedadesocial #autoestima #curiosidades #vocesabia",
-  "status": "pendente"
+  "status": "publicado",
+  "media_id": "18613850116068337",
+  "em": "2026-11-19T22:37:07.694217+00:00"
  },
  {
   "id": "2026-11-19_primeira-impressao",
   "quando": "2026-11-19T22:00:00+00:00",
   "video": "v/2026-11-19_primeira-impressao.mp4",
   "legenda": "A entrevistadora decide se gosta de você antes de você abrir a boca 😬\nQual desses erros você já cometeu: 1, 2, 3 ou 4?\n\nManda pra quem tem entrevista essa semana 👀\n\n#entrevistadeemprego #primeiraimpressao #carreira #rh #emprego",
-  "status": "pendente"
+  "status": "pendente",
+  "erro": "Graph API 400: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}",
+  "tentativas": 1
  },
  {
   "id": "2026-11-20_12_passou-mal-na-rua",
