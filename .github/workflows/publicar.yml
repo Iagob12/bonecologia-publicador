@@ -23,7 +23,7 @@ jobs:
       - name: Publicar o que venceu
         env:
           META_IG: ${{ secrets.META_IG }}
-          REPO_URL: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python publicar_instagram.py
       - name: Salvar a agenda
         run: |

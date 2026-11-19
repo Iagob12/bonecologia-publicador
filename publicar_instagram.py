@@ -18,12 +18,15 @@ def ok(r):
 
 
 def baixar(caminho):
-    """Pega um único arquivo da branch videos (clone parcial: não baixa os outros vídeos)."""
-    if not os.path.isdir("_v"):
-        subprocess.run(["git", "clone", "--filter=blob:none", "--no-checkout", "--depth", "1", "--branch", "videos",
-                        os.environ["REPO_URL"], "_v"], check=True)
-    subprocess.run(["git", "-C", "_v", "checkout", "videos", "--", caminho], check=True)
-    return os.path.join("_v", caminho)
+    """Baixa só aquele vídeo da branch videos pela API do GitHub (arquivo até 100 MB)."""
+    os.makedirs("_v", exist_ok=True)
+    destino = os.path.join("_v", os.path.basename(caminho))
+    r = requests.get(f"https://api.github.com/repos/{os.environ['GITHUB_REPOSITORY']}/contents/{caminho}", params={"ref": "videos"},
+                     headers={"Authorization": f"Bearer {os.environ['GH_TOKEN']}", "Accept": "application/vnd.github.raw"}, stream=True, timeout=300)
+    r.raise_for_status()
+    with open(destino, "wb") as f:
+        for bloco in r.iter_content(1 << 20): f.write(bloco)
+    return destino
 
 
 def publicar(video, legenda, cfg):
