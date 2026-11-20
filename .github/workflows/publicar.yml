@@ -5,6 +5,7 @@ on:
   workflow_dispatch: {}
   schedule:
     - cron: "17 3 * * *"     # reserva: 1x por dia (00h17 de Brasília) pega o que tiver ficado para trás
+    - cron: "5,35 14-23,0-1 * * *"  # reserva do despertador: a cada 30 min das 11h às 22h de Brasília (o GitHub pode atrasar alguns minutos)
 permissions:
   contents: write
 concurrency:
