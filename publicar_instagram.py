@@ -1,7 +1,7 @@
 """Publicador de Reels do Instagram que roda no GitHub Actions (sem depender do PC ligado).
 
 Lê agenda.json (branch main): [{"id", "quando" (ISO com fuso), "video" (caminho na branch videos), "legenda", "status"}].
-Para cada item vencido e pendente: baixa só aquele vídeo da branch "videos", envia pela API oficial e marca "publicado".
+Para cada item vencido e pendente: o Instagram baixa o vídeo do repositório público bonecologia-midia (video_url) e marca "publicado".
 O token vem do segredo META_IG (JSON {"ig_user_id": "...", "ig_token": "..."}), nunca do repositório.
 """
 import datetime as dt, json, os, subprocess, sys, time
@@ -29,21 +29,23 @@ def baixar(caminho):
     return destino
 
 
-def publicar(video, legenda, cfg):
+MIDIA = "https://raw.githubusercontent.com/Iagob12/bonecologia-midia/main/"
+
+
+def publicar(caminho, legenda, cfg):
+    """Envia por video_url: o Instagram baixa o vídeo do repositório público de mídia.
+    (O envio direto do arquivo, rupload, passou a ser recusado com ProcessingFailedError em 20/11/2026.)"""
     tok, uid = cfg["ig_token"], cfg["ig_user_id"]
-    c = ok(requests.post(f"{G}/{uid}/media", data={"media_type": "REELS", "upload_type": "resumable", "caption": legenda[:2200],
+    c = ok(requests.post(f"{G}/{uid}/media", data={"media_type": "REELS", "video_url": MIDIA + caminho, "caption": legenda[:2200],
                                                     "share_to_feed": "true", "access_token": tok}))
     cid = c["id"]
-    with open(video, "rb") as f:  # o rupload às vezes responde 400 mesmo aceitando: quem decide é o status do container
-        requests.post(c.get("uri") or f"https://rupload.facebook.com/ig-api-upload/v27.0/{cid}", data=f,
-                      headers={"Authorization": f"OAuth {tok}", "offset": "0", "file_size": str(os.path.getsize(video))})
-    for _ in range(120):
+    for _ in range(80):
         st = ok(requests.get(f"{G}/{cid}", params={"fields": "status_code,status", "access_token": tok}))
         if st.get("status_code") == "FINISHED": break
         if st.get("status_code") == "ERROR": raise RuntimeError(f"Instagram recusou o vídeo: {st}")
         time.sleep(15)
     else:
-        raise RuntimeError("Instagram não terminou de processar o vídeo em 30 min")
+        raise RuntimeError("Instagram não terminou de processar o vídeo em 20 min")
     return ok(requests.post(f"{G}/{uid}/media_publish", data={"creation_id": cid, "access_token": tok}))["id"]
 
 
@@ -59,7 +61,7 @@ def main():
         if (agora - quando).total_seconds() > 6 * 3600:  # passou muito da hora: não publica atrasado sem ninguém ver
             it["status"] = "atrasado"; mudou = True; continue
         try:
-            it["media_id"] = publicar(baixar(it["video"]), it["legenda"], cfg)
+            it["media_id"] = publicar(it["video"], it["legenda"], cfg)
             it["status"] = "publicado"; it["em"] = agora.isoformat()
             print(f"publicado: {it['id']}")
         except Exception as e:
