@@ -1,11 +1,8 @@
 name: Publicar (Instagram, Facebook, TikTok)
 on:
-  # Disparos: cron-job.org (no horário certo) + o agendamento do próprio GitHub como reserva (pode atrasar).
+  # Agora o disparo é do vigia (vigia.yml). Este fica só para rodar à mão (Run workflow).
   # Cada execução só publica o que já venceu (até 6 h de atraso), então disparos repetidos não duplicam nada.
   workflow_dispatch: {}
-  schedule:
-    - cron: "2,32 14-23 * * *"   # 11h às 20h32 de Brasília, a cada 30 min
-    - cron: "2,32 0-2 * * *"     # 21h às 23h32 de Brasília
 permissions:
   contents: write
 concurrency:

@@ -1,0 +1,51 @@
+name: Vigia (publica na hora certa)
+on:
+  # O vigia fica ligado ~5h40, confere a agenda a cada 2 min e, antes de terminar, liga o próximo vigia.
+  # O agendamento abaixo só ressuscita a corrente se ela quebrar (repo público: minutos do Actions são grátis).
+  workflow_dispatch: {}
+  schedule:
+    - cron: "17 */2 * * *"
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: publicar
+  cancel-in-progress: false
+jobs:
+  vigia:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install requests==2.32.3
+      - name: Vigiar e publicar
+        env:
+          META_UNIDADES: ${{ secrets.META_UNIDADES }}
+          META_IG: ${{ secrets.META_IG }}
+          TIKTOK_APP: ${{ secrets.TIKTOK_APP }}
+          TIKTOK_TOKENS: ${{ secrets.TIKTOK_TOKENS }}
+          TIKTOK_MODO: ${{ vars.TIKTOK_MODO }}
+        run: |
+          git config user.name "publicador"
+          git config user.email "publicador@users.noreply.github.com"
+          fim=$(( $(date +%s) + 340*60 ))
+          while [ "$(date +%s)" -lt "$fim" ]; do
+            git pull -q --rebase origin main || true
+            python publicar_v2.py || true
+            if ! git diff --quiet agenda_v2.json; then
+              git add agenda_v2.json
+              git commit -q -m "agenda_v2: publicado pelo vigia"
+              git pull -q --rebase origin main && git push -q || true
+            fi
+            sleep 120
+          done
+      - name: Ligar o próximo vigia
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run vigia.yml --repo "${{ github.repository }}" --ref main

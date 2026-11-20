@@ -7,7 +7,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: publicar
+  group: youtube
   cancel-in-progress: false
 jobs:
   youtube:
