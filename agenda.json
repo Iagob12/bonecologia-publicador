@@ -4,8 +4,7 @@
   "quando": "2026-11-19T15:00:00+00:00",
   "video": "v/2026-11-19_12_cartao-de-credito.mp4",
   "legenda": "Quem paga no cartão aceita pagar até 2x mais pela mesma coisa 💳\nQual compra no cartão você mais se arrependeu?\n\nManda pra quem vive estourando o limite 😅\n\n#financaspessoais #cartaodecredito #dinheiro #educacaofinanceira #psicologia",
-  "status": "atrasado",
-  "erro": "Graph API 400: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}",
+  "status": "manual",
   "tentativas": 2
  },
  {
@@ -22,8 +21,7 @@
   "quando": "2026-11-19T22:00:00+00:00",
   "video": "v/2026-11-19_primeira-impressao.mp4",
   "legenda": "A entrevistadora decide se gosta de você antes de você abrir a boca 😬\nQual desses erros você já cometeu: 1, 2, 3 ou 4?\n\nManda pra quem tem entrevista essa semana 👀\n\n#entrevistadeemprego #primeiraimpressao #carreira #rh #emprego",
-  "status": "pendente",
-  "erro": "Graph API 400: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}",
+  "status": "manual",
   "tentativas": 1
  },
  {
