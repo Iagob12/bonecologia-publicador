@@ -1,11 +1,11 @@
-name: Publicar Reels do Instagram
+name: Publicar (Instagram, Facebook, TikTok)
 on:
-  # Disparado pelo cron-job.org nos horários de post (11h, 12h, 18h, 21h de Brasília, aos :02 e :32).
-  # O "schedule" do GitHub foi removido: em repositório privado ele atrasava horas e gastava minutos.
+  # Disparos: cron-job.org (no horário certo) + o agendamento do próprio GitHub como reserva (pode atrasar).
+  # Cada execução só publica o que já venceu (até 6 h de atraso), então disparos repetidos não duplicam nada.
   workflow_dispatch: {}
   schedule:
-    - cron: "17 3 * * *"     # reserva: 1x por dia (00h17 de Brasília) pega o que tiver ficado para trás
-    - cron: "5,35 14-23,0-1 * * *"  # reserva do despertador: a cada 30 min das 11h às 22h de Brasília (o GitHub pode atrasar alguns minutos)
+    - cron: "2,32 14-23 * * *"   # 11h às 20h32 de Brasília, a cada 30 min
+    - cron: "2,32 0-2 * * *"     # 21h às 23h32 de Brasília
 permissions:
   contents: write
 concurrency:
@@ -25,15 +25,19 @@ jobs:
       - run: pip install requests==2.32.3
       - name: Publicar o que venceu
         env:
+          META_UNIDADES: ${{ secrets.META_UNIDADES }}
           META_IG: ${{ secrets.META_IG }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python publicar_instagram.py
+          TIKTOK_APP: ${{ secrets.TIKTOK_APP }}
+          TIKTOK_TOKENS: ${{ secrets.TIKTOK_TOKENS }}
+          TIKTOK_MODO: ${{ vars.TIKTOK_MODO }}
+        run: python publicar_v2.py
       - name: Salvar a agenda
         run: |
-          if ! git diff --quiet agenda.json; then
+          if ! git diff --quiet agenda_v2.json; then
             git config user.name "publicador"
             git config user.email "publicador@users.noreply.github.com"
-            git add agenda.json
-            git commit -m "agenda: atualizada pelo publicador"
+            git add agenda_v2.json
+            git commit -m "agenda_v2: atualizada pelo publicador"
+            git pull --rebase origin main
             git push
           fi
