@@ -1,8 +1,10 @@
 name: Publicar Reels do Instagram
 on:
-  schedule:
-    - cron: "2,32 * * * *"   # a cada 30 min (horário UTC); o GitHub pode atrasar alguns minutos
+  # Disparado pelo cron-job.org nos horários de post (11h, 12h, 18h, 21h de Brasília, aos :02 e :32).
+  # O "schedule" do GitHub foi removido: em repositório privado ele atrasava horas e gastava minutos.
   workflow_dispatch: {}
+  schedule:
+    - cron: "17 3 * * *"     # reserva: 1x por dia (00h17 de Brasília) pega o que tiver ficado para trás
 permissions:
   contents: write
 concurrency:
