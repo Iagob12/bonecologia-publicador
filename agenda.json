@@ -178,6 +178,13 @@
   "status": "pendente"
  },
  {
+  "id": "2026-11-22_20_rotativo-cartao",
+  "quando": "2026-11-22T23:30:00+00:00",
+  "video": "v/2026-11-22_20_rotativo-cartao.mp4",
+  "legenda": "Fatura de R$ 1.000, você paga só o mínimo 💳\nEm um mês, R$ 153 de juros. E a dívida pode dobrar.\nVocê já pagou só o mínimo? 👇\n\nManda pra quem sempre paga só o mínimo da fatura 💳\n\n#dinheiro #educacaofinanceira #fazaconta #cartaodecredito #dividas",
+  "status": "pendente"
+ },
+ {
   "id": "2026-11-22_21_supermercado-musica",
   "quando": "2026-11-23T00:00:00+00:00",
   "video": "v/2026-11-22_21_supermercado-musica.mp4",
@@ -185,10 +192,31 @@
   "status": "pendente"
  },
  {
+  "id": "2026-11-22_22_juliane-koepcke",
+  "quando": "2026-11-23T01:00:00+00:00",
+  "video": "v/2026-11-22_22_juliane-koepcke.mp4",
+  "legenda": "17 anos, véspera de Natal, sozinha na floresta depois de cair de um avião 🌧️\nUma regra que o pai ensinou salvou a vida dela.\nVocê saberia o que fazer na mata? 👇\n\nManda pra quem ama histórias reais de sobrevivência 🌳\n\n#historiareal #sobrevivencia #amazonia #curiosidades #caixapreta",
+  "status": "pendente"
+ },
+ {
   "id": "2026-11-23_12_esqueceu-o-nome",
   "quando": "2026-11-23T15:00:00+00:00",
   "video": "v/2026-11-23_12_esqueceu-o-nome.mp4",
   "legenda": "Você esquece o nome porque estava ensaiando o que ia falar 😅\nQual nome você já esqueceu na pior hora possível?\n\nManda pra quem nunca lembra o nome de ninguém 😂\n\n#memoria #psicologia #comunicacao #vocesabia #curiosidades",
+  "status": "pendente"
+ },
+ {
+  "id": "2026-11-23_12_caverna-tailandia",
+  "quando": "2026-11-23T15:30:00+00:00",
+  "video": "v/2026-11-23_12_caverna-tailandia.mp4",
+  "legenda": "12 meninos e o treinador presos a 4 km dentro de uma caverna inundada 🌊\nO resgate nunca tinha sido tentado antes.\nVocê teria coragem de mergulhar? 👇\n\nManda pra quem tem medo de lugar fechado 😰\n\n#historiareal #resgate #tailandia #curiosidades #caixapreta",
+  "status": "pendente"
+ },
+ {
+  "id": "2026-11-23_13_desconto-em-cima",
+  "quando": "2026-11-23T16:00:00+00:00",
+  "video": "v/2026-11-23_13_desconto-em-cima.mp4",
+  "legenda": "50% de desconto + 20% de cupom = 70%? 🧮\nNão. Desconto em cima de desconto multiplica, não soma.\nVocê já caiu nessa conta? 👇\n\nManda pra quem vai caçar cupom na Black Friday 🛒\n\n#blackfriday #dinheiro #fazaconta #matematica #educacaofinanceira",
   "status": "pendente"
  },
  {
@@ -206,6 +234,48 @@
   "status": "pendente"
  },
  {
+  "id": "2026-11-23_19_callahan-76-dias",
+  "quando": "2026-11-23T22:30:00+00:00",
+  "video": "v/2026-11-23_19_callahan-76-dias.mp4",
+  "legenda": "O barco afundou à noite no meio do Atlântico 🌊\n76 dias depois, ele chegou ao Caribe.\nQual item você salvaria do barco? 👇\n\nManda pra quem diz que sobreviveria em qualquer lugar 😅\n\n#historiareal #sobrevivencia #oceano #curiosidades #caixapreta",
+  "status": "pendente"
+ },
+ {
+  "id": "2026-11-23_20_decimo-terceiro",
+  "quando": "2026-11-23T23:30:00+00:00",
+  "video": "v/2026-11-23_20_decimo-terceiro.mp4",
+  "legenda": "A 1ª parcela do 13º cai até 30/11 e vem SEM desconto 💰\nA 2ª vem menor. E a ordem certa de usar muda tudo.\nO seu 13º já tem destino? 👇\n\nManda pra quem já gastou o 13º antes de receber 😅\n\n#dinheiro #educacaofinanceira #fazaconta #decimoterceiro #13salario",
+  "status": "pendente"
+ },
+ {
+  "id": "2026-11-23_21_pico-fim-entrevista",
+  "quando": "2026-11-24T00:00:00+00:00",
+  "video": "v/2026-11-23_21_pico-fim-entrevista.mp4",
+  "legenda": "Na entrevista, o final pesa quase tanto quanto todo o resto 🧠\nÉ a regra do pico e fim, do Kahneman.\nQual foi a sua pior saída de entrevista? 👇\n\nManda pra quem tem entrevista essa semana 🍀\n\n#psicologia #entrevistadeemprego #carreira #comportamento #curiosidades",
+  "status": "pendente"
+ },
+ {
+  "id": "2026-11-23_22_aron-127-horas",
+  "quando": "2026-11-24T01:00:00+00:00",
+  "video": "v/2026-11-23_22_aron-127-horas.mp4",
+  "legenda": "Sozinho, num cânion, com o braço preso por uma pedra de 300 kg 🪨\nNinguém sabia onde ele estava.\nAntes de sair sozinho, você avisa alguém? 👇\n\nManda pra quem faz trilha sozinho 🥾\n\n#historiareal #sobrevivencia #trilha #curiosidades #caixapreta",
+  "status": "pendente"
+ },
+ {
+  "id": "2026-11-24_12_efeito-zeigarnik",
+  "quando": "2026-11-24T15:00:00+00:00",
+  "video": "v/2026-11-24_12_efeito-zeigarnik.mp4",
+  "legenda": "A tarefa que você não terminou volta na hora de dormir 🧠\nTem nome, tem estudo e tem um jeito simples de desligar.\nQual tarefa está rodando na sua cabeça agora? 👇\n\nManda pra quem não consegue dormir pensando no trabalho 😵‍💫\n\n#psicologia #ansiedade #produtividade #comportamento #curiosidades",
+  "status": "pendente"
+ },
+ {
+  "id": "2026-11-24_13_dez-reais-por-dia",
+  "quando": "2026-11-24T16:00:00+00:00",
+  "video": "v/2026-11-24_13_dez-reais-por-dia.mp4",
+  "legenda": "R$ 10 por dia parece nada ☕\nEm 10 anos, são R$ 36.500. Guardados rendendo, perto de R$ 64 mil.\nQual gasto pequeno mais pesa no seu mês? 👇\n\nManda pra quem diz que R$ 10 não faz diferença ☕\n\n#dinheiro #educacaofinanceira #fazaconta #investimentos #juroscompostos",
+  "status": "pendente"
+ },
+ {
   "id": "2026-11-24_15_sully-208",
   "quando": "2026-11-24T18:00:00+00:00",
   "video": "v/2026-11-24_15_sully-208.mp4",
@@ -217,6 +287,13 @@
   "quando": "2026-11-24T22:30:00+00:00",
   "video": "v/2026-11-24_19_mineiros-33.mp4",
   "legenda": "33 pessoas presas a 700 metros. Comida pra 2 dias. ⛏️\nNo 17º dia, um bilhete mudou tudo.\nVocê aguentaria? 👇\n\nManda pra quem reclama de segunda-feira 😅\n\n#historiareal #chile #curiosidades #sobrevivencia #vocesabia",
+  "status": "pendente"
+ },
+ {
+  "id": "2026-11-25_12_efeito-pratfall",
+  "quando": "2026-11-25T15:00:00+00:00",
+  "video": "v/2026-11-25_12_efeito-pratfall.mp4",
+  "legenda": "Derrubar café na frente de todo mundo pode te deixar mais simpático ☕\nMas o estudo tem uma pegadinha que quase ninguém conta.\nQual foi o seu mico mais lembrado? 👇\n\nManda pra quem morre de vergonha de errar 🙈\n\n#psicologia #comportamento #curiosidades #trabalho #autoestima",
   "status": "pendente"
  },
  {
