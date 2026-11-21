@@ -1,5 +1,37 @@
 [
  {
+  "id": "2026-11-23_21_pico-fim-entrevista",
+  "idioma": "pt",
+  "quando": "2026-11-24T00:00:00+00:00",
+  "video": "v/2026-11-23_21_pico-fim-entrevista.mp4",
+  "titulo": "Os últimos 30 segundos da entrevista (regra do pico e fim) + 3 jeitos de terminar bem",
+  "descricao": "Na entrevista, o final pesa quase tanto quanto todo o resto 🧠\nÉ a regra do pico e fim, do Kahneman.\nQual foi a sua pior saída de entrevista? 👇\n\nFontes: Kahneman, D., Fredrickson, B. L., Schreiber, C. A., & Redelmeier, D. A. (1993). When more pain is preferred to less: Adding a better end. Psychological Science, 4(6), 401–405 — 60 s com a mão em água a 14 °C vs. 90 s (os mesmos 60 s + 30 s com a água subindo ~1 °C); a maioria (cerca de 69%) escolheu repetir a sessão mais longa. | Regra do pico e fim: Redelmeier & Kahneman (1996), Pain, 66(1), 3–8. A aplicação à entrevista é uma extrapolação prática, apresentada como tal no vídeo.\n\n#psicologia #entrevistadeemprego #carreira #comportamento",
+  "tags": [
+   "psicologia",
+   "entrevistadeemprego",
+   "carreira",
+   "comportamento",
+   "curiosidades"
+  ],
+  "status": "pendente"
+ },
+ {
+  "id": "2026-11-24_12_efeito-zeigarnik",
+  "idioma": "pt",
+  "quando": "2026-11-24T15:00:00+00:00",
+  "video": "v/2026-11-24_12_efeito-zeigarnik.mp4",
+  "titulo": "Por que a tarefa pendente não sai da sua cabeça (efeito Zeigarnik) + como desligar",
+  "descricao": "A tarefa que você não terminou volta na hora de dormir 🧠\nTem nome, tem estudo e tem um jeito simples de desligar.\nQual tarefa está rodando na sua cabeça agora? 👇\n\nFontes: Zeigarnik, B. (1927). Das Behalten erledigter und unerledigter Handlungen. Psychologische Forschung, 9, 1–85 — tarefas interrompidas lembradas cerca de 1,9 vez mais que as concluídas. | Masicampo, E. J., & Baumeister, R. F. (2011). Consider it done! Plan making can eliminate the cognitive effects of unfulfilled goals. Journal of Personality and Social Psychology, 101(4), 667–683 (Florida State University).\n\n#psicologia #ansiedade #produtividade #comportamento",
+  "tags": [
+   "psicologia",
+   "ansiedade",
+   "produtividade",
+   "comportamento",
+   "curiosidades"
+  ],
+  "status": "pendente"
+ },
+ {
   "id": "2026-11-24_15_sully-208",
   "idioma": "pt",
   "quando": "2026-11-24T18:00:00+00:00",
@@ -16,6 +48,22 @@
   "status": "pendente",
   "erro": "<HttpError 400 when requesting None returned \"The user has exceeded the number of videos they may upload.\". Details: \"[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]\">",
   "erro_em": "2026-11-21T00:02:44.135682+00:00"
+ },
+ {
+  "id": "2026-11-25_12_efeito-pratfall",
+  "idioma": "pt",
+  "quando": "2026-11-25T15:00:00+00:00",
+  "video": "v/2026-11-25_12_efeito-pratfall.mp4",
+  "titulo": "Errar te deixa MAIS simpático (efeito pratfall) — mas só com uma condição",
+  "descricao": "Derrubar café na frente de todo mundo pode te deixar mais simpático ☕\nMas o estudo tem uma pegadinha que quase ninguém conta.\nQual foi o seu mico mais lembrado? 👇\n\nFontes: Aronson, E., Willerman, B., & Floyd, J. (1966). The effect of a pratfall on increasing interpersonal attractiveness. Psychonomic Science, 4(6), 227–228 — candidato muito competente que derruba café foi avaliado como mais atraente/simpático; candidato mediano que derruba café foi avaliado como menos.\n\n#psicologia #comportamento #curiosidades #trabalho",
+  "tags": [
+   "psicologia",
+   "comportamento",
+   "curiosidades",
+   "trabalho",
+   "autoestima"
+  ],
+  "status": "pendente"
  },
  {
   "id": "2026-11-25_15_hachiko",
