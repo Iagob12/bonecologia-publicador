@@ -924,6 +924,36 @@
   "status": "movido"
  },
  {
+  "id": "2026-11-24_20_credito-livre-bc|instagram",
+  "base": "2026-11-24_20_credito-livre-bc",
+  "unidade": "U05_BR_CONTAS",
+  "rede": "instagram",
+  "quando": "2026-11-24T23:30:00+00:00",
+  "video": "v/2026-11-24_20_credito-livre-bc.mp4",
+  "legenda": "Parcelar em 12x parece pouco. Quanto de juro você paga de verdade? 🧮\nCom a taxa média do BC, R$ 2.000 em 12x viram R$ 2.561. Faz a conta antes de assinar.\nE você sabe quanto paga de juro quando parcela? 👇\n\nManda pra quem parcela tudo 💳\n\n#dinheiro #educacaofinanceira #fazaconta #juros #bancocentral",
+  "status": "pendente"
+ },
+ {
+  "id": "2026-11-24_20_credito-livre-bc|facebook",
+  "base": "2026-11-24_20_credito-livre-bc",
+  "unidade": "U05_BR_CONTAS",
+  "rede": "facebook",
+  "quando": "2026-11-24T23:30:00+00:00",
+  "video": "v/2026-11-24_20_credito-livre-bc.mp4",
+  "legenda": "Parcelar em 12x parece pouco. Quanto de juro você paga de verdade? 🧮\nCom a taxa média do BC, R$ 2.000 em 12x viram R$ 2.561. Faz a conta antes de assinar.\nE você sabe quanto paga de juro quando parcela? 👇\n\nManda pra quem parcela tudo 💳\n\n#dinheiro #educacaofinanceira #fazaconta #juros #bancocentral",
+  "status": "pendente"
+ },
+ {
+  "id": "2026-11-24_20_credito-livre-bc|tiktok",
+  "base": "2026-11-24_20_credito-livre-bc",
+  "unidade": "U05_BR_CONTAS",
+  "rede": "tiktok",
+  "quando": "2026-11-24T23:30:00+00:00",
+  "video": "v/2026-11-24_20_credito-livre-bc.mp4",
+  "legenda": "Parcelar em 12x parece pouco. Quanto de juro você paga de verdade? 🧮\nCom a taxa média do BC, R$ 2.000 em 12x viram R$ 2.561. Faz a conta antes de assinar.\nE você sabe quanto paga de juro quando parcela? 👇\n\nManda pra quem parcela tudo 💳\n\n#dinheiro #educacaofinanceira #fazaconta #juros #bancocentral",
+  "status": "pendente"
+ },
+ {
   "id": "2026-11-25_12_efeito-pratfall|instagram",
   "base": "2026-11-25_12_efeito-pratfall",
   "unidade": "U01_BR_PSICO",
