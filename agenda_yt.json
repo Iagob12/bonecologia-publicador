@@ -13,7 +13,9 @@
    "novayork",
    "vocesabia"
   ],
-  "status": "pendente"
+  "status": "pendente",
+  "erro": "<HttpError 400 when requesting None returned \"The user has exceeded the number of videos they may upload.\". Details: \"[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]\">",
+  "erro_em": "2026-11-21T00:02:44.135682+00:00"
  },
  {
   "id": "2026-11-25_15_hachiko",
