@@ -739,6 +739,36 @@
   "status": "cancelado"
  },
  {
+  "id": "2026-11-23_12_nariz-mentira|instagram",
+  "base": "2026-11-23_12_nariz-mentira",
+  "unidade": "U01_BR_PSICO",
+  "rede": "instagram",
+  "quando": "2026-11-23T15:00:00+00:00",
+  "video": "v/2026-11-23_12_nariz-mentira.mp4",
+  "legenda": "Quando você mente, a ponta do nariz esquenta 🤥\nE o truque pra pegar uma mentira em 10 segundos.\n\n📩 Manda pra quem jura que nunca mente\n\n#psicologia #mentira #corpohumano #comportamento #curiosidades",
+  "status": "pendente"
+ },
+ {
+  "id": "2026-11-23_12_nariz-mentira|facebook",
+  "base": "2026-11-23_12_nariz-mentira",
+  "unidade": "U01_BR_PSICO",
+  "rede": "facebook",
+  "quando": "2026-11-23T15:00:00+00:00",
+  "video": "v/2026-11-23_12_nariz-mentira.mp4",
+  "legenda": "Quando você mente, a ponta do nariz esquenta 🤥\nE o truque pra pegar uma mentira em 10 segundos.\n\n📩 Manda pra quem jura que nunca mente\n\n#psicologia #mentira #corpohumano #comportamento #curiosidades",
+  "status": "pendente"
+ },
+ {
+  "id": "2026-11-23_12_nariz-mentira|tiktok",
+  "base": "2026-11-23_12_nariz-mentira",
+  "unidade": "U01_BR_PSICO",
+  "rede": "tiktok",
+  "quando": "2026-11-23T15:00:00+00:00",
+  "video": "v/2026-11-23_12_nariz-mentira.mp4",
+  "legenda": "Quando você mente, a ponta do nariz esquenta 🤥\nE o truque pra pegar uma mentira em 10 segundos.\n\n📩 Manda pra quem jura que nunca mente\n\n#psicologia #mentira #corpohumano #comportamento #curiosidades",
+  "status": "pendente"
+ },
+ {
   "id": "2026-11-23_12_caverna-tailandia|instagram",
   "base": "2026-11-23_12_caverna-tailandia",
   "unidade": "U03_BR_HISTORIAS",
