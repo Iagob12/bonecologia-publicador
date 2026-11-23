@@ -677,8 +677,8 @@
   "video": "v/2026-11-22_20_voz-gravada.mp4",
   "legenda": "Essa voz no áudio é a sua voz de verdade 🎙️\nE o motivo de você estranhar tanto.\n\n📩 Manda pra quem nunca escuta os próprios áudios\n\n#psicologia #voz #curiosidades #corpohumano #comportamento",
   "status": "pendente",
-  "erro": "Instagram recusou: {'id': '17906202435418366', 'status': 'Error: Media upload has failed with error code 2207076', 'status_code': 'ERROR'}",
-  "tentativas": 1
+  "erro": "Instagram recusou: {'id': '17906202744418366', 'status': 'Error: Media upload has failed with error code 2207076', 'status_code': 'ERROR'}",
+  "tentativas": 2
  },
  {
   "id": "2026-11-22_20_voz-gravada|facebook",
@@ -690,7 +690,7 @@
   "legenda": "Essa voz no áudio é a sua voz de verdade 🎙️\nE o motivo de você estranhar tanto.\n\n📩 Manda pra quem nunca escuta os próprios áudios\n\n#psicologia #voz #curiosidades #corpohumano #comportamento",
   "status": "pendente",
   "erro": "upload do Facebook: 422 {\"debug_info\":{\"retriable\":false,\"type\":\"FileUrlProcessingError\",\"message\":\"Unable to fetch media from URL, got status code: 404 Not Found\"}}",
-  "tentativas": 1
+  "tentativas": 2
  },
  {
   "id": "2026-11-22_20_voz-gravada|tiktok",
@@ -702,7 +702,7 @@
   "legenda": "Essa voz no áudio é a sua voz de verdade 🎙️\nE o motivo de você estranhar tanto.\n\n📩 Manda pra quem nunca escuta os próprios áudios\n\n#psicologia #voz #curiosidades #corpohumano #comportamento",
   "status": "pendente",
   "erro": "upload do TikTok: 500",
-  "tentativas": 1
+  "tentativas": 2
  },
  {
   "id": "2026-11-22_20_mulher-sem-medo|instagram",
@@ -713,8 +713,8 @@
   "video": "v/2026-11-22_20_mulher-sem-medo.mp4",
   "legenda": "Ela não sente medo. Nem com uma faca no pescoço 🧠\nA história real da paciente S.M.\n\n📩 Manda pra quem diz que não tem medo de nada\n\n#historiareal #cerebro #medo #ciencia #caixapreta",
   "status": "pendente",
-  "erro": "Instagram recusou: {'id': '18004049780840883', 'status': 'Error: Media upload has failed with error code 2207076', 'status_code': 'ERROR'}",
-  "tentativas": 1
+  "erro": "Instagram recusou: {'id': '18004050977840883', 'status': 'Error: Media upload has failed with error code 2207076', 'status_code': 'ERROR'}",
+  "tentativas": 2
  },
  {
   "id": "2026-11-22_20_mulher-sem-medo|facebook",
@@ -726,7 +726,7 @@
   "legenda": "Ela não sente medo. Nem com uma faca no pescoço 🧠\nA história real da paciente S.M.\n\n📩 Manda pra quem diz que não tem medo de nada\n\n#historiareal #cerebro #medo #ciencia #caixapreta",
   "status": "pendente",
   "erro": "upload do Facebook: 422 {\"debug_info\":{\"retriable\":false,\"type\":\"FileUrlProcessingError\",\"message\":\"Unable to fetch media from URL, got status code: 404 Not Found\"}}",
-  "tentativas": 1
+  "tentativas": 2
  },
  {
   "id": "2026-11-22_20_mulher-sem-medo|tiktok",
@@ -738,7 +738,7 @@
   "legenda": "Ela não sente medo. Nem com uma faca no pescoço 🧠\nA história real da paciente S.M.\n\n📩 Manda pra quem diz que não tem medo de nada\n\n#historiareal #cerebro #medo #ciencia #caixapreta",
   "status": "pendente",
   "erro": "upload do TikTok: 500",
-  "tentativas": 1
+  "tentativas": 2
  },
  {
   "id": "2026-11-22_20_dividir-conta|instagram",
@@ -749,8 +749,8 @@
   "video": "v/2026-11-22_20_dividir-conta.mp4",
   "legenda": "Quando a conta é dividida, todo mundo come mais 🍝\nO experimento do restaurante que provou.\n\n📩 Manda pro grupo do rolê de sexta\n\n#dinheiro #economia #fazaconta #educacaofinanceira #comportamento",
   "status": "pendente",
-  "erro": "Instagram recusou: {'id': '17867037402695194', 'status': 'Error: Media upload has failed with error code 2207076', 'status_code': 'ERROR'}",
-  "tentativas": 1
+  "erro": "Instagram recusou: {'id': '17867037567695194', 'status': 'Error: Media upload has failed with error code 2207076', 'status_code': 'ERROR'}",
+  "tentativas": 2
  },
  {
   "id": "2026-11-22_20_dividir-conta|facebook",
@@ -762,7 +762,7 @@
   "legenda": "Quando a conta é dividida, todo mundo come mais 🍝\nO experimento do restaurante que provou.\n\n📩 Manda pro grupo do rolê de sexta\n\n#dinheiro #economia #fazaconta #educacaofinanceira #comportamento",
   "status": "pendente",
   "erro": "upload do Facebook: 422 {\"debug_info\":{\"retriable\":false,\"type\":\"FileUrlProcessingError\",\"message\":\"Unable to fetch media from URL, got status code: 404 Not Found\"}}",
-  "tentativas": 1
+  "tentativas": 2
  },
  {
   "id": "2026-11-22_20_dividir-conta|tiktok",
@@ -774,7 +774,7 @@
   "legenda": "Quando a conta é dividida, todo mundo come mais 🍝\nO experimento do restaurante que provou.\n\n📩 Manda pro grupo do rolê de sexta\n\n#dinheiro #economia #fazaconta #educacaofinanceira #comportamento",
   "status": "pendente",
   "erro": "upload do TikTok: 500",
-  "tentativas": 1
+  "tentativas": 2
  },
  {
   "id": "2026-11-22_21_supermercado-musica|instagram",
