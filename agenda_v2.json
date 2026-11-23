@@ -676,9 +676,10 @@
   "quando": "2026-11-22T23:40:00+00:00",
   "video": "v/2026-11-22_20_voz-gravada.mp4",
   "legenda": "Essa voz no áudio é a sua voz de verdade 🎙️\nE o motivo de você estranhar tanto.\n\n📩 Manda pra quem nunca escuta os próprios áudios\n\n#psicologia #voz #curiosidades #corpohumano #comportamento",
-  "status": "pendente",
-  "erro": "Instagram recusou: {'id': '17906204622418366', 'status': 'Error: Media upload has failed with error code 2207076', 'status_code': 'ERROR'}",
-  "tentativas": 1
+  "status": "publicado",
+  "tentativas": 1,
+  "media_id": "17896106457616420",
+  "em": "2026-11-23T00:20:23.190130+00:00"
  },
  {
   "id": "2026-11-22_20_voz-gravada|facebook",
@@ -713,9 +714,10 @@
   "quando": "2026-11-22T23:40:00+00:00",
   "video": "v/2026-11-22_20_mulher-sem-medo.mp4",
   "legenda": "Ela não sente medo. Nem com uma faca no pescoço 🧠\nA história real da paciente S.M.\n\n📩 Manda pra quem diz que não tem medo de nada\n\n#historiareal #cerebro #medo #ciencia #caixapreta",
-  "status": "pendente",
-  "erro": "Instagram recusou: {'id': '18004052129840883', 'status': 'Error: Media upload has failed with error code 2207076', 'status_code': 'ERROR'}",
-  "tentativas": 1
+  "status": "publicado",
+  "tentativas": 1,
+  "media_id": "18096732752682904",
+  "em": "2026-11-23T00:20:23.190130+00:00"
  },
  {
   "id": "2026-11-22_20_mulher-sem-medo|facebook",
